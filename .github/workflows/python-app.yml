@@ -49,14 +49,14 @@ jobs:
       run: |
         git config --global user.email "tu-email@example.com"
         git config --global user.name "tu-nombre-de-usuario"
-        git add ubicaciones.geojson
-        git commit -m "Actualización automática desde GitHub Actions"
-        git push origin HEAD:main
+        git add ubicaciones.geojson || true
+        git commit -m "Actualización automática desde GitHub Actions" || echo "No hay cambios para hacer commit"
+        git push origin HEAD:main || echo "No hay cambios para hacer push"
 
     - name: Wait for 2 minutes
       run: |
         echo "Waiting for 2 minutes"
-        sleep 20  # Esperar 2 minutos (120 segundos)
+        sleep 120  # Esperar 2 minutos (120 segundos)
 
     - name: Run second Python script
       run: |
