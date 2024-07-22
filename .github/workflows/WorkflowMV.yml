@@ -32,7 +32,7 @@ jobs:
     - name: Wait for 2 minutes
       run: |
         echo "Waiting for 2 minutes"
-        sleep 120
+        sleep 20
 
     - name: Run second Python script
       run: |
