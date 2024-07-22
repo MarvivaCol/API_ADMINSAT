@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 # Parámetros de autenticación de ArcGIS
 username = 'gis.colombia_mv'
@@ -31,14 +32,23 @@ item_id = '71a9955bd81c410186b6914c408dafb9'
 # URL del servicio de ArcGIS Online donde actualizarás los datos
 update_url = f'https://www.arcgis.com/sharing/rest/content/users/{username}/items/{item_id}/update'
 
+# Ruta relativa al archivo GeoJSON en el repositorio
+archivo_geojson = 'ubicaciones.geojson'
+
+# Asegúrate de que el archivo existe
+if not os.path.exists(archivo_geojson):
+    print(f"El archivo {archivo_geojson} no existe.")
+    exit()
+
 # Actualizar archivo GeoJSON en ArcGIS Online
-files = {'file': open('ubicaciones.geojson', 'rb')}  # Reemplaza con la ruta a tu archivo GeoJSON local
-params = {
-    'f': 'json',
-    'token': token
-}
-response = requests.post(update_url, files=files, data=params)
-response_data = response.json()
+with open(archivo_geojson, 'rb') as file:
+    files = {'file': file}
+    params = {
+        'f': 'json',
+        'token': token
+    }
+    response = requests.post(update_url, files=files, data=params)
+    response_data = response.json()
 
 # Verifica si la actualización fue exitosa
 if 'success' in response_data and response_data['success']:
