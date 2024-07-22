@@ -19,7 +19,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt
+        pip install gitpython requests geojson
 
     - name: List files in the repository
       run: ls -la  # Verifica que los archivos están presentes
@@ -32,9 +32,19 @@ jobs:
     - name: Wait for 2 minutes
       run: |
         echo "Waiting for 2 minutes"
-        sleep 20
+        sleep 120  # Esperar 2 minutos (120 segundos)
 
     - name: Run second Python script
       run: |
         echo "Running second Python script"
         python Carga_ARCGISONLINE.py  # Usa 'python' para ejecutar el script
+
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        git config --global user.email "tu-email@example.com"
+        git config --global user.name "tu-nombre-de-usuario"
+        git add ubicaciones.geojson
+        git commit -m "Actualización automática desde GitHub Actions"
+        git push origin HEAD:main
