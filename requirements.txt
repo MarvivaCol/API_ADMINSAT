@@ -1,2 +1,3 @@
-requests
-geojson
+geojson==2.5.0
+requests==2.25.1
+
