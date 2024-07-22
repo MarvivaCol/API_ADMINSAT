@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '["pypy3.9", "pypy3.10", "3.9", "3.10", "3.11", "3.12"]'  # Asegúrate de usar una versión válida de Python
+        python-version: '3.12'  # Asegúrate de usar una versión válida de Python
 
     - name: Install dependencies
       run: |
