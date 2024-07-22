@@ -29,16 +29,6 @@ jobs:
         echo "Running first Python script"
         python Request_ADMINSAT.py  # Usa 'python' para ejecutar el script
 
-    - name: Wait for 2 minutes
-      run: |
-        echo "Waiting for 2 minutes"
-        sleep 120  # Esperar 2 minutos (120 segundos)
-
-    - name: Run second Python script
-      run: |
-        echo "Running second Python script"
-        python Carga_ARCGISONLINE.py  # Usa 'python' para ejecutar el script
-
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -48,3 +38,13 @@ jobs:
         git add ubicaciones.geojson
         git commit -m "Actualización automática desde GitHub Actions"
         git push origin HEAD:main
+
+    - name: Wait for 2 minutes
+      run: |
+        echo "Waiting for 2 minutes"
+        sleep 120  # Esperar 2 minutos (120 segundos)
+
+    - name: Run second Python script
+      run: |
+        echo "Running second Python script"
+        python Carga_ARCGISONLINE.py  # Usa 'python' para ejecutar el script
