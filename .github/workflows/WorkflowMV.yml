@@ -15,16 +15,19 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'  # Reemplaza '3.1' con la versión específica de Python que necesitas
+        python-version: '3.9'  # Asegúrate de usar una versión válida de Python
 
     - name: Install dependencies
       run: |
-        pip install -r requirements.txt  # Ajusta este comando según tus necesidades de instalación
+        pip install -r requirements.txt
+
+    - name: List files in the repository
+      run: ls -la  # Verifica que los archivos están presentes
 
     - name: Run first Python script
       run: |
         echo "Running first Python script"
-        Request_ADMINSAT.py  # Reemplaza con el nombre de tu primer script
+        python Request_ADMINSAT.py  # Usa 'python' para ejecutar el script
 
     - name: Wait for 2 minutes
       run: |
@@ -34,4 +37,4 @@ jobs:
     - name: Run second Python script
       run: |
         echo "Running second Python script"
-        Carga_ARCGISONLINE.py  # Reemplaza con el nombre de tu segundo script
+        python Carga_ARCGISONLINE.py  # Usa 'python' para ejecutar el script
