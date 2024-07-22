@@ -1,4 +1,4 @@
-name: Scheduled workflow with delay
+name: WorkflowMV with delay
 
 on:
   schedule:
