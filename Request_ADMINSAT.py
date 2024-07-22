@@ -2,6 +2,7 @@ import json
 import requests
 import geojson
 import os
+from git import Repo
 
 # URL para solicitar el token de autenticación
 url_autenticacion = "https://api.adminsat.com/v2/api/applications/autenticacion/token/"
@@ -92,6 +93,20 @@ if respuesta_autenticacion.status_code == 200:
             geojson.dump(feature_collection, archivo, indent=4)
             
         print("Archivo .geojson creado correctamente.")
+        
+        # Agregar y hacer commit de los cambios en el repositorio de GitHub
+        repo_dir = os.path.abspath(os.path.dirname(__file__))  # Ruta al directorio del script
+        repo = Repo(repo_dir)
+        
+        # Agregar los cambios
+        repo.git.add(archivo_geojson)
+        
+        # Hacer commit de los cambios
+        repo.index.commit('Actualización automática del archivo ubicaciones.geojson')
+        
+        # Empujar los cambios al repositorio remoto
+        origin = repo.remote(name='origin')
+        origin.push()
             
     else:
         print("Error al obtener la ubicación de los activos:", respuesta_ubicacion.status_code)
