@@ -1,0 +1,37 @@
+name: Scheduled workflow with delay
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Se ejecuta cada 15 minutos
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Reemplaza '3.x' con la versión específica de Python que necesitas
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt  # Ajusta este comando según tus necesidades de instalación
+
+    - name: Run first Python script
+      run: |
+        echo "Running first Python script"
+        Request_ADMINSAT.py  # Reemplaza con el nombre de tu primer script
+
+    - name: Wait for 2 minutes
+      run: |
+        echo "Waiting for 2 minutes"
+        sleep 120
+
+    - name: Run second Python script
+      run: |
+        echo "Running second Python script"
+        Carga_ARCGISONLINE.py  # Reemplaza con el nombre de tu segundo script
