@@ -94488,6 +94488,750 @@
                 "Identificador": "0-4575916",
                 "Od\u00f3metro": 0.0
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.39007,
+                    6.36042
+                ]
+            },
+            "properties": {
+                "Nombre": "0-3385810",
+                "Placa": "0-3385810",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1696060774.0,
+                "Fecha y hora del servidor": 1696063355.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-3385810",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.42797,
+                    6.25764
+                ]
+            },
+            "properties": {
+                "Nombre": "Nuqu\u00ed fish: time rider 1",
+                "Placa": "0-4577321",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "0.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1702033940.0,
+                "Fecha y hora del servidor": 1702033925.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4577321",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.41159,
+                    6.23154
+                ]
+            },
+            "properties": {
+                "Nombre": "Ind. bah\u00eda: frankenstein",
+                "Placa": "0-4579090",
+                "Velocidad": "6.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1710368197.0,
+                "Fecha y hora del servidor": 1710368182.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4579090",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.31143,
+                    4.70928
+                ]
+            },
+            "properties": {
+                "Nombre": "Asopesregui: la ni\u00f1a dairin",
+                "Placa": "0-4576094",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1719848600.0,
+                "Fecha y hora del servidor": 1719848585.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576094",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.38449,
+                    5.61673
+                ]
+            },
+            "properties": {
+                "Nombre": "Las palmas de jov\u00ed: aunap",
+                "Placa": "0-4536808",
+                "Velocidad": "1.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "0.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1720465840.0,
+                "Fecha y hora del servidor": 1720465824.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4536808",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.76221,
+                    7.10397
+                ]
+            },
+            "properties": {
+                "Nombre": "Los bravos: felipe s",
+                "Placa": "0-4579095",
+                "Velocidad": "2.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "0.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721501468.0,
+                "Fecha y hora del servidor": 1721501453.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4579095",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.7632,
+                    7.10562
+                ]
+            },
+            "properties": {
+                "Nombre": "Los bravos: asopefron 3",
+                "Placa": "0-4575201",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721888464.0,
+                "Fecha y hora del servidor": 1721888448.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4575201",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.40262,
+                    6.22538
+                ]
+            },
+            "properties": {
+                "Nombre": "Ind. bah\u00eda: as\u00ed me hizo dios_",
+                "Placa": "0-4577404",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721888598.0,
+                "Fecha y hora del servidor": 1721888582.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4577404",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.38368,
+                    5.61594
+                ]
+            },
+            "properties": {
+                "Nombre": "Las palmas de jov\u00ed: palmas 4",
+                "Placa": "0-4576556",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721888647.0,
+                "Fecha y hora del servidor": 1721888632.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576556",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.45569,
+                    5.59825
+                ]
+            },
+            "properties": {
+                "Nombre": "Partad\u00f3: aunap lunarejos",
+                "Placa": "0-4575940",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721889345.0,
+                "Fecha y hora del servidor": 1721889329.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4575940",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.27637,
+                    5.70282
+                ]
+            },
+            "properties": {
+                "Nombre": "Nuqu\u00ed fish: las 3 hermanas ii",
+                "Placa": "0-4574752",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721889681.0,
+                "Fecha y hora del servidor": 1721889666.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4574752",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.29984,
+                    4.74993
+                ]
+            },
+            "properties": {
+                "Nombre": "Aspoman: aristarco",
+                "Placa": "0-4577403",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721890842.0,
+                "Fecha y hora del servidor": 1721890827.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4577403",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.50393,
+                    5.61071
+                ]
+            },
+            "properties": {
+                "Nombre": "Nuqu\u00ed fish: claudia",
+                "Placa": "0-4576814",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721890940.0,
+                "Fecha y hora del servidor": 1721890924.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576814",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.40177,
+                    6.2232
+                ]
+            },
+            "properties": {
+                "Nombre": "Ind. bah\u00eda: la maravilla",
+                "Placa": "0-4577140",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721890951.0,
+                "Fecha y hora del servidor": 1721890940.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4577140",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.38353,
+                    5.61591
+                ]
+            },
+            "properties": {
+                "Nombre": "Las palmas de jov\u00ed: palmas 3",
+                "Placa": "0-4576966",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721891148.0,
+                "Fecha y hora del servidor": 1721891132.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576966",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.40256,
+                    5.40037
+                ]
+            },
+            "properties": {
+                "Nombre": "Cc virud\u00f3: enor cordoba",
+                "Placa": "0-4574587",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721891161.0,
+                "Fecha y hora del servidor": 1721891145.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4574587",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.76365,
+                    7.10724
+                ]
+            },
+            "properties": {
+                "Nombre": "Los bravos: amebar",
+                "Placa": "0-4575794",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721891191.0,
+                "Fecha y hora del servidor": 1721891176.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4575794",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.35329,
+                    5.19474
+                ]
+            },
+            "properties": {
+                "Nombre": "Asoherradura: la \u00f1ata",
+                "Placa": "0-4575346",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721891447.0,
+                "Fecha y hora del servidor": 1721891431.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4575346",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.80343,
+                    7.15202
+                ]
+            },
+            "properties": {
+                "Nombre": "Calidad: cy samilka",
+                "Placa": "0-4576539",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721891862.0,
+                "Fecha y hora del servidor": 1721891846.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576539",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.27315,
+                    5.70448
+                ]
+            },
+            "properties": {
+                "Nombre": "Nuqu\u00ed fish: nuqu\u00ed fish",
+                "Placa": "0-4577146",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721891974.0,
+                "Fecha y hora del servidor": 1721891959.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4577146",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.80354,
+                    7.15203
+                ]
+            },
+            "properties": {
+                "Nombre": "Calidad: las lenguitas",
+                "Placa": "0-4576535",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721892316.0,
+                "Fecha y hora del servidor": 1721892300.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576535",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.40247,
+                    5.39763
+                ]
+            },
+            "properties": {
+                "Nombre": "Asovirud\u00f3: sebastian asprilla",
+                "Placa": "0-4576950",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721892365.0,
+                "Fecha y hora del servidor": 1721892349.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576950",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.31154,
+                    4.7092
+                ]
+            },
+            "properties": {
+                "Nombre": "Asopesregui: aunap",
+                "Placa": "0-4574669",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721892440.0,
+                "Fecha y hora del servidor": 1721892424.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4574669",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.29978,
+                    4.75125
+                ]
+            },
+            "properties": {
+                "Nombre": "Aspoman: aunap",
+                "Placa": "0-4577190",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721892526.0,
+                "Fecha y hora del servidor": 1721892511.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4577190",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.40164,
+                    6.22321
+                ]
+            },
+            "properties": {
+                "Nombre": "Ind. bah\u00eda: ni\u00f1a deilyn",
+                "Placa": "0-4577315",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721892842.0,
+                "Fecha y hora del servidor": 1721892826.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4577315",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.40095,
+                    5.63893
+                ]
+            },
+            "properties": {
+                "Nombre": "Nuqu\u00ed fish: luz yelena",
+                "Placa": "0-4575916",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721892876.0,
+                "Fecha y hora del servidor": 1721892860.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4575916",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4014,
+                    5.40083
+                ]
+            },
+            "properties": {
+                "Nombre": "Asovirud\u00f3: la coquita",
+                "Placa": "0-4575938",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721893180.0,
+                "Fecha y hora del servidor": 1721893165.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4575938",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.47419,
+                    6.31483
+                ]
+            },
+            "properties": {
+                "Nombre": "Ind. bah\u00eda: yol\u00ed del mar 2",
+                "Placa": "0-4576846",
+                "Velocidad": "1.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721893235.0,
+                "Fecha y hora del servidor": 1721893219.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576846",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.35334,
+                    5.19476
+                ]
+            },
+            "properties": {
+                "Nombre": "Asoherradura: aunap",
+                "Placa": "0-4576741",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721893474.0,
+                "Fecha y hora del servidor": 1721893459.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576741",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.36525,
+                    5.62634
+                ]
+            },
+            "properties": {
+                "Nombre": "Nuqu\u00ed fish: ana luisa",
+                "Placa": "0-4575973",
+                "Velocidad": "14.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721893656.0,
+                "Fecha y hora del servidor": 1721893641.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4575973",
+                "Od\u00f3metro": 0.0
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.30027,
+                    5.77243
+                ]
+            },
+            "properties": {
+                "Nombre": "Nuqu\u00ed fish: alambrera",
+                "Placa": "0-4576127",
+                "Velocidad": "0.00",
+                "Calidad GPS": "Buena",
+                "Ignici\u00f3n": "Encendido",
+                "Porcentaje de bater\u00eda": "100.00",
+                "Altitud": null,
+                "Fecha y hora del equipo": 1721893714.0,
+                "Fecha y hora del servidor": 1721893699.0,
+                "Evento": "Reporte por tiempo",
+                "Identificador": "0-4576127",
+                "Od\u00f3metro": 0.0
+            }
         }
     ]
 }
