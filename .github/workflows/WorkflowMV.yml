@@ -48,3 +48,8 @@ jobs:
       run: |
         echo "Running second Python script"
         python Carga_ARCGISONLINE.py  # Usa 'python' para ejecutar el script
+
+    - name: Run CSV_TRANS_ADMINSAT script  # Nueva sección para el script adicional
+      run: |
+        echo "Running CSV_TRANS_ADMINSAT.py script"
+        python CSV_TRANS_ADMINSAT.py  # Usa 'python' para ejecutar el script
