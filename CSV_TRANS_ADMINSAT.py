@@ -1,52 +1,78 @@
-import geojson
-import pandas as pd
-import os
-from git import Repo
+import requests
+import json
 
-# Ruta del archivo GeoJSON y del archivo CSV
-archivo_geojson = "ubicaciones.geojson"
-archivo_csv = "ubicaciones_convertido.csv"
+# Datos necesarios
+username = 'gis.colombia_mv'
+password = 'Marviva2022#1'
+layer_url = 'https://services1.arcgis.com/GWTczcNsFHCvuTLo/arcgis/rest/services/Capa_Geojson/FeatureServer/0'  # Cambia esto a la URL correcta
 
-# Verificar si el archivo GeoJSON existe
-if os.path.exists(archivo_geojson):
-    # Leer el archivo GeoJSON
-    with open(archivo_geojson, "r") as archivo:
-        geojson_data = geojson.load(archivo)
+# Función para obtener el token de ArcGIS Online
+def get_token(username, password):
+    token_url = 'https://www.arcgis.com/sharing/rest/generateToken'
+    params = {
+        'f': 'json',
+        'username': username,
+        'password': password,
+        'referer': 'https://www.arcgis.com'
+    }
+    response = requests.post(token_url, data=params)
+    response_json = response.json()
+    if 'token' in response_json:
+        return response_json['token']
+    else:
+        print("Error al obtener el token:", response_json)
+        exit()
+
+# Función para consultar datos de la capa en ArcGIS Online
+def get_layer_data(token, layer_url):
+    data_url = f'{layer_url}/query?where=1=1&outFields=*&f=json&token={token}'
+    response = requests.get(data_url)
     
-    # Lista para almacenar las propiedades
-    propiedades_list = []
+    # Verificar si se obtuvieron correctamente los datos
+    if response.status_code == 200:
+        response_json = response.json()
+        print("Datos obtenidos exitosamente.")
+        return response_json['features']  # Devuelve solo las características
+    else:
+        print(f"Error al obtener los datos: {response.status_code}")
+        return None
+
+# Función para actualizar la capa existente con nuevos datos de GeoJSON
+def update_layer(token, layer_url, geojson_data):
+    # Convertir el GeoJSON dict a string en formato JSON
+    geojson_str = json.dumps(geojson_data)
+
+    # Preparar la URL para actualizar la capa
+    update_url = f'{layer_url}/updateFeatures'
     
-    # Iterar sobre las características del GeoJSON y extraer las propiedades
-    for feature in geojson_data["features"]:
-        propiedades = feature["properties"]
-        # Agregar las coordenadas de latitud y longitud
-        coordenadas = feature["geometry"]["coordinates"]
-        propiedades["longitud"] = coordenadas[0]
-        propiedades["latitud"] = coordenadas[1]
-        propiedades_list.append(propiedades)
+    # Datos a enviar para actualizar la capa
+    update_params = {
+        'f': 'json',
+        'token': token,
+        'features': geojson_str  # Agregar los datos de GeoJSON aquí
+    }
+
+    response = requests.post(update_url, data=update_params)
     
-    # Crear un DataFrame de pandas con las propiedades
-    df = pd.DataFrame(propiedades_list)
-    
-    # Guardar los datos en un archivo CSV
-    df.to_csv(archivo_csv, index=False)
-    
-    print(f"Archivo CSV '{archivo_csv}' creado correctamente.")
-    
-    # Ruta del directorio del repositorio
-    repo_dir = os.path.abspath(os.path.dirname(__file__))  # Directorio donde está este script
-    repo = Repo(repo_dir)
-    
-    # Agregar el archivo CSV al repositorio
-    repo.git.add(archivo_csv)
-    
-    # Hacer commit de los cambios
-    repo.index.commit('Añadido archivo CSV convertido desde GeoJSON')
-    
-    # Empujar los cambios al repositorio remoto
-    origin = repo.remote(name='origin')
-    origin.push()
-    
-    print("Archivo CSV subido a GitHub correctamente.")
+    # Verificar si la capa se actualizó correctamente
+    if response.status_code == 200:
+        response_json = response.json()
+        if 'updateResults' in response_json and response_json['updateResults'][0]['success']:
+            print("Capa actualizada exitosamente.")
+        else:
+            print(f"Error al actualizar la capa: {response_json}")
+    else:
+        print(f"Error en la solicitud al actualizar la capa: {response.status_code}")
+
+# Obtener el token de autenticación
+token = get_token(username, password)
+print(f"Token obtenido: {token}")
+
+# Consultar los datos de la capa
+geojson_data = get_layer_data(token, layer_url)
+
+# Actualizar la capa con los nuevos datos si se obtuvieron correctamente
+if geojson_data:
+    update_layer(token, layer_url, geojson_data)
 else:
-    print(f"El archivo {archivo_geojson} no existe.")
+    print("No se pudieron obtener los datos del GeoJSON.")
